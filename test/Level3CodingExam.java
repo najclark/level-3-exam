@@ -57,13 +57,13 @@ public class Level3CodingExam {
 		hashmap1.put("Felix", "Sick");
 
 		HashMap<String, String> hashmap2 = new HashMap<String, String>();
-		hashmap2.put("Mary", "Ecstatic ");
+		hashmap2.put("Mary", "Ecstatic");
 		hashmap2.put("Felix", "Healthy");
 		hashmap2.put("Ricardo", "Superb");
 		hashmap2.put("Tam", "Fine");
 		hashmap2.put("Bob", "Happy");
 
-		assertEquals(1, new HashMapCalculator().commonKeyValuePairs(hashmap1, hashmap2));
+		assertEquals(2, new HashMapCalculator().commonKeyValuePairs(hashmap1, hashmap2));
 	}
 }
 
